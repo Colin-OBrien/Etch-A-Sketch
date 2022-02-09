@@ -2,13 +2,25 @@ html {
     height: 100%;
 }
 body {
-    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
 }
 
-.row {
+#grid-container {
     display: flex;
+    justify-content: center;
 }
 
-.gridsquare {
-    flex: 1;
+.column {
+    display: flex;
+    flex-flow: column wrap;
 }
+.gridSquare {
+    flex: 1;
+    border: 1px solid black;
+    color: white;
+    min-width: 25px;
+    min-height: 25px;    
+}
+
