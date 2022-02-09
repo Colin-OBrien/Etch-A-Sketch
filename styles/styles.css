@@ -5,6 +5,7 @@ body {
     height: 100%;
     margin: 0;
     text-align: center;
+    background-color: blanchedalmond;
 }
 
 #grid-container {
@@ -18,9 +19,15 @@ body {
 }
 .gridSquare {
     flex: 1;
-    border: 1px solid black;
+    border: 0.5px dotted black;
     color: white;
     min-width: 25px;
     min-height: 25px;    
 }
 
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+}

@@ -19,5 +19,15 @@ function createGrid(size=16) {
 
 createGrid(16);
 
+var item = document.querySelector('gridSquare');
+if(item) {
+    item.addEventListener("mouseover", func, false);
+}
+
+function func()
+{
+    item.setAttribute("style", "background-color: black;")
+}
+
 
 
